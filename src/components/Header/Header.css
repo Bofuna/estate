@@ -1,0 +1,12 @@
+.header {
+  border: 1px dashed black;
+  height: 35rem;
+  position: relative;
+}
+
+.header__carousel {
+  position: absolute;
+  right: 0;
+  width: 70%;
+  height: 100%;
+}

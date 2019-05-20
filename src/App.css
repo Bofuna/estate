@@ -1,0 +1,15 @@
+:root {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  --orange: #f4a127;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
