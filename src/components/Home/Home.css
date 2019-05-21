@@ -1,0 +1,48 @@
+.section__01 {
+  margin-top: 8rem;
+  position: relative;
+  height: 70rem;
+}
+
+.section__01__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
+  position: absolute;
+  left: -10%;
+}
+
+.section__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.section__01__info {
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.section__info > * {
+  margin-bottom: 3rem;
+}
+
+.section__02 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section__02__info {
+  margin-right: 3rem;
+}
+
+.service__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.service__image {
+  width: 100%;
+}

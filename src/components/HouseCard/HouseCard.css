@@ -1,0 +1,45 @@
+.housecard {
+  width: 22rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.housecard__image {
+  width: 100%;
+  height: 26rem;
+}
+
+.housecard__like {
+  padding: 0.7rem 0.8rem;
+  background-color: var(--green);
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+  cursor: pointer;
+}
+
+.housecard__like__icon {
+  font-size: 1.5rem;
+}
+
+.housecard__details__container {
+  margin: 0.5rem;
+}
+
+.housecard__details {
+  margin-left: 12rem;
+}
+
+.housecard__info {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.housecard__more {
+  text-decoration: none;
+  color: var(--orange);
+  font-weight: 500;
+}

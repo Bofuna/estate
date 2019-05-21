@@ -1,4 +1,4 @@
-.headerbox {
+.header__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,26 +15,26 @@
   height: 70%;
 }
 
-.headerbox__inner {
+.header__box__inner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.headerbox__title {
+.header__box__title {
   font-size: 3rem;
   font-weight: 700;
   word-wrap: none;
 }
 
-.headerbox__title__dot {
+.header__box__title__dot {
   color: var(--orange);
 }
 
-.headerbox__description {
+.header__box__description {
   font-size: 1rem;
 }
 
-.headerbox__inner > *:not(:last-child) {
+.header__box__inner > *:not(:last-child) {
   margin-bottom: 1.5rem;
 }

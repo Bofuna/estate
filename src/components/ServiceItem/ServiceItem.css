@@ -1,0 +1,16 @@
+.service__item {
+  display: flex;
+  align-items: center;
+}
+
+.service__name {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.service__icon {
+  color: var(--orange);
+  background-color: var(--lightorange);
+  border-radius: 100px;
+  padding: 0.4rem 0.6rem;
+}

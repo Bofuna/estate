@@ -2,7 +2,7 @@
   color: blue;
   cursor: pointer;
   font-size: 2rem;
-  position: fixed;
+  position: absolute;
   top: 50%;
 }
 

@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   --orange: #f4a127;
+  --lightorange: #fff6e6;
+  --green: #29a499;
+  --lightgrey: #e2e2e2;
 }
 
 *,
